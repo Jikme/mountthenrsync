@@ -8,7 +8,7 @@ try
 		if exists disk "smb_net_drive<insertnetwrokdrive>" then
 			runBackupScript() of me
 		else
-			if exists (mount volume "smb://192.168.0.100/<pathtonetdrive>") then
+			if exists (mount volume "smb://URI/<pathtonetdrive>") then
 				runBackupScript() of me
 			else
 				error "The smb disk could not be mounted"
