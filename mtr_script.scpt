@@ -1,3 +1,8 @@
+# SCRIPT: mtr_script.scpt 
+# AUTHOR: Jikme
+# DATE: 30/07/2022
+# Apple Script 2.7
+
 try
 	tell application "Finder"
 		if exists disk "smb_net_drive<insertnetwrokdrive>" then
